@@ -1,0 +1,1 @@
+[![Frictionless](https://github.com/imchenxi/test/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/pages/dashboard.html?user=imchenxi&repo=test&flow=frictionless)
