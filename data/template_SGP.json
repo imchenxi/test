@@ -1,0 +1,117 @@
+{
+  "fields": [
+    {
+      "name": "parent sample number",
+      "type": "yearmonth"
+    },
+    {
+      "name": "original sample number*",
+      "type": "yearmonth"
+    },
+    {
+      "name": "height in section/ depth in core (m)*",
+      "type": "yearmonth"
+    },
+    {
+      "name": "section name*",
+      "type": "string"
+    },
+    {
+      "name": "sample type",
+      "type": "string"
+    },
+    {
+      "name": "geological unit name*",
+      "type": "string"
+    },
+    {
+      "name": "depositonal environment bin*",
+      "type": "string"
+    },
+    {
+      "name": "depositional environment detail",
+      "type": "string"
+    },
+    {
+      "name": "depositional environment description",
+      "type": "string"
+    },
+    {
+      "name": "is_turbiditic? (t/f)",
+      "type": "yearmonth"
+    },
+    {
+      "name": "biostratigraphy",
+      "type": "string"
+    },
+    {
+      "name": "geological age*",
+      "type": "string"
+    },
+    {
+      "name": "lithology*",
+      "type": "string"
+    },
+    {
+      "name": "lithological texture (modifier)",
+      "type": "string"
+    },
+    {
+      "name": "lithological composition (modifier)",
+      "type": "string"
+    },
+    {
+      "name": "color",
+      "type": "string"
+    },
+    {
+      "name": "is_bioturbated (t/f)",
+      "type": "yearmonth"
+    },
+    {
+      "name": "fossils",
+      "type": "string"
+    },
+    {
+      "name": "sedimentary structures",
+      "type": "string"
+    },
+    {
+      "name": "lithological notes",
+      "type": "yearmonth"
+    },
+    {
+      "name": "interpreted age (Ma)*",
+      "type": "number"
+    },
+    {
+      "name": "interpreted age justification*",
+      "type": "yearmonth"
+    },
+    {
+      "name": "maximum age",
+      "type": "number"
+    },
+    {
+      "name": "minimum age",
+      "type": "number"
+    },
+    {
+      "name": "sample storage location",
+      "type": "string",
+      "example": "40°0'31.99\"N, 115°48'35.03\"E",
+      "constraints": {
+        "required": true,
+        "pattern": "^[0-9]{1,3}°[1-6]*[0-9]'[1-6]*[0-9]\\.*[0-9]{0,3}\"[N,S], *[0-9]{1,3}°[1-6]*[0-9]'[1-6]*[0-9]\\.*[0-9]{0,3}\"[E,W]$"
+      }
+    },
+    {
+      "name": "contact person for sample",
+      "type": "string"
+    },
+    {
+      "name": "notes",
+      "type": "string"
+    }
+  ]
+}
